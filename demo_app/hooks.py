@@ -8,6 +8,12 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+
+fixtures=[
+    { "dt":"Insights Query","filters":[]},
+    { "dt":"Insights Dashboard","filters":[]}
+    ]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/demo_app/css/demo_app.css"
 # app_include_js = "/assets/demo_app/js/demo_app.js"

@@ -1,0 +1,251 @@
+[
+ {
+  "_liked_by": "[\"Administrator\"]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "236141",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 236141,\n    \"moved\": false,\n    \"w\": 4,\n    \"x\": 0,\n    \"y\": 2\n}",
+    "options": "{\n    \"column\": \"Number of Customer\",\n    \"query\": \"QRY-0359\",\n    \"shorten\": false,\n    \"title\": \"Number of Customer\"\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "518928",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 518928,\n    \"moved\": false,\n    \"w\": 4,\n    \"x\": 4,\n    \"y\": 2\n}",
+    "options": "{\n    \"column\": \"Referal Rate\",\n    \"query\": \"QRY-0361\",\n    \"shorten\": false,\n    \"title\": \"Customer Referal Rate\"\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "729476",
+    "item_type": "Filter",
+    "layout": "{\n    \"h\": 2,\n    \"i\": 729476,\n    \"moved\": false,\n    \"w\": 5,\n    \"x\": 0,\n    \"y\": 0\n}",
+    "options": "{\n    \"column\": {\n        \"column\": \"creation\",\n        \"data_source\": \"jibu3\",\n        \"description\": \"Datetime - Customer\",\n        \"label\": \"Creation\",\n        \"table\": \"tabCustomer\",\n        \"type\": \"Datetime\",\n        \"value\": \"tabCustomer.creation\"\n    },\n    \"defaultOperator\": {\n        \"label\": \"equals\",\n        \"value\": \"=\"\n    },\n    \"defaultValue\": {},\n    \"label\": \"Creation Time\",\n    \"links\": {\n        \"145671\": {\n            \"column\": \"creation\",\n            \"data_source\": \"jibu3\",\n            \"description\": \"Datetime - Customer\",\n            \"label\": \"Creation\",\n            \"table\": \"tabCustomer\",\n            \"table_label\": \"Customer\",\n            \"type\": \"Datetime\",\n            \"value\": \"tabCustomer.creation\"\n        },\n        \"236141\": {\n            \"column\": \"creation\",\n            \"data_source\": \"jibu3\",\n            \"description\": \"Datetime - Customer\",\n            \"label\": \"Creation\",\n            \"table\": \"tabCustomer\",\n            \"table_label\": \"Customer\",\n            \"type\": \"Datetime\",\n            \"value\": \"tabCustomer.creation\"\n        },\n        \"518928\": {\n            \"column\": \"creation\",\n            \"data_source\": \"jibu3\",\n            \"description\": \"Datetime - Customer\",\n            \"label\": \"Creation\",\n            \"table\": \"tabCustomer\",\n            \"table_label\": \"Customer\",\n            \"type\": \"Datetime\",\n            \"value\": \"tabCustomer.creation\"\n        },\n        \"572039\": {\n            \"column\": \"creation\",\n            \"data_source\": \"jibu3\",\n            \"description\": \"Datetime - Customer\",\n            \"label\": \"Creation\",\n            \"table\": \"tabCustomer\",\n            \"table_label\": \"Customer\",\n            \"type\": \"Datetime\",\n            \"value\": \"tabCustomer.creation\"\n        },\n        \"992937\": {\n            \"column\": \"creation\",\n            \"data_source\": \"jibu3\",\n            \"description\": \"Datetime - Customer\",\n            \"label\": \"Creation\",\n            \"table\": \"tabCustomer\",\n            \"table_label\": \"Customer\",\n            \"type\": \"Datetime\",\n            \"value\": \"tabCustomer.creation\"\n        }\n    }\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "572039",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 9,\n    \"i\": 572039,\n    \"moved\": false,\n    \"w\": 7,\n    \"x\": 0,\n    \"y\": 8\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Type Of Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Total Customers\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"query\": \"QRY-0363\",\n    \"title\": \"Types Of Customer\"\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "992937",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 9,\n    \"i\": 992937,\n    \"moved\": false,\n    \"w\": 6,\n    \"x\": 7,\n    \"y\": 8\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Status\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Total Customers\",\n            \"column_options\": {\n                \"column_type\": \"Number\"\n            }\n        }\n    ],\n    \"query\": \"QRY-0364\",\n    \"title\": \"Status Of Customers\"\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "145671",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 9,\n    \"i\": 145671,\n    \"moved\": false,\n    \"w\": 7,\n    \"x\": 13,\n    \"y\": 8\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Lead Source\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Total Customers\",\n            \"column_options\": {\n                \"column_type\": \"Number\"\n            }\n        }\n    ],\n    \"query\": \"QRY-0365\",\n    \"title\": \"Lead Source Wise Customer\"\n}",
+    "parent": "DSH-0355",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 08:21:12.567051",
+  "name": "DSH-0355",
+  "public_key": null,
+  "title": "Customer Dashboard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "873040",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 6,\n    \"i\": 873040,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 0\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Customers Who Bought This Two Week & Last Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought Last Two Week Only\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Retention Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": false,\n    \"index\": true,\n    \"query\": \"QRY-0029\",\n    \"showTotal\": true,\n    \"title\": \"Retention Rate SQL Query(Weekly)\"\n}",
+    "parent": "DSH-0031",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "52539",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 19,\n    \"i\": 52539,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 6\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Type of Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Last Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"This Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought This Week & Last Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought Last Week Only\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Retention Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": true,\n    \"index\": true,\n    \"query\": \"QRY-0030\",\n    \"showTotal\": true,\n    \"title\": \"Retention Rate SQL Query Type of Customer Wise(Weekly)\"\n}",
+    "parent": "DSH-0031",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 10:02:35.728594",
+  "name": "DSH-0031",
+  "public_key": null,
+  "title": "Sales Metrics -Type of Customer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "624377",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 624377,\n    \"moved\": false,\n    \"w\": 4,\n    \"x\": 0,\n    \"y\": 0\n}",
+    "options": "{\n    \"column\": \"Customers\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Refill Rate Metrics\"\n}",
+    "parent": "DSH-0022",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "4408",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 4408,\n    \"moved\": false,\n    \"w\": 4,\n    \"x\": 4,\n    \"y\": 0\n}",
+    "options": "{\n    \"column\": \"Refills\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Refill Rate Metrics\"\n}",
+    "parent": "DSH-0022",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "238452",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 238452,\n    \"moved\": false,\n    \"w\": 4,\n    \"x\": 8,\n    \"y\": 0\n}",
+    "options": "{\n    \"column\": \"Refill Rate\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Refill Rate Metrics\"\n}",
+    "parent": "DSH-0022",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "64897",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 12,\n    \"i\": 64897,\n    \"moved\": false,\n    \"w\": 15,\n    \"x\": 0,\n    \"y\": 4\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"SKUs\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Type Of Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Refills\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Refill Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"query\": \"QRY-0017\",\n    \"title\": \"Average of refill SKUs per Customer Type\"\n}",
+    "parent": "DSH-0022",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 09:59:06.435470",
+  "name": "DSH-0022",
+  "public_key": null,
+  "title": "Refill Rate Metrics (Weekly Refill)"
+ },
+ {
+  "_liked_by": "[\"Administrator\"]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "422777",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 422777,\n    \"moved\": false,\n    \"w\": 5,\n    \"x\": 0,\n    \"y\": 2\n}",
+    "options": "{\n    \"column\": \"Customers\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Customers\"\n}",
+    "parent": "DSH-0018",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "832987",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 832987,\n    \"moved\": false,\n    \"w\": 5,\n    \"x\": 5,\n    \"y\": 2\n}",
+    "options": "{\n    \"column\": \"Refills\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Refills\"\n}",
+    "parent": "DSH-0018",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "986797",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 22,\n    \"i\": 986797,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 6\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"SKUs\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Type Of Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Refills\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customer\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Refill Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": true,\n    \"index\": true,\n    \"query\": \"QRY-0017\",\n    \"showTotal\": true,\n    \"title\": \"Average of refill SKUs per Customer Type\"\n}",
+    "parent": "DSH-0018",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "256164",
+    "item_type": "Number",
+    "layout": "{\n    \"h\": 4,\n    \"i\": 256164,\n    \"moved\": false,\n    \"w\": 5,\n    \"x\": 10,\n    \"y\": 2\n}",
+    "options": "{\n    \"column\": \"Refill Rate\",\n    \"decimals\": \"2\",\n    \"query\": \"QRY-0016\",\n    \"shorten\": false,\n    \"title\": \"Refill Rate\"\n}",
+    "parent": "DSH-0018",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "356365",
+    "item_type": "Filter",
+    "layout": "{\n    \"h\": 2,\n    \"i\": 356365,\n    \"moved\": false,\n    \"w\": 5,\n    \"x\": 0,\n    \"y\": 0\n}",
+    "options": "{\n    \"column\": {\n        \"column\": \"posting_date\",\n        \"data_source\": \"Site DB\",\n        \"description\": \"Date - Sales Invoice\",\n        \"label\": \"Posting Date\",\n        \"table\": \"tabSales Invoice\",\n        \"type\": \"Date\",\n        \"value\": \"tabSales Invoice.posting_date\"\n    },\n    \"label\": \"Date\",\n    \"links\": {\n        \"256164\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        },\n        \"417644\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        },\n        \"422777\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        },\n        \"832987\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        },\n        \"888230\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        },\n        \"986797\": {\n            \"column\": \"posting_date\",\n            \"data_source\": \"Site DB\",\n            \"description\": \"Date - Sales Invoice\",\n            \"label\": \"Posting Date\",\n            \"table\": \"tabSales Invoice\",\n            \"table_label\": \"Sales Invoice\",\n            \"type\": \"Date\",\n            \"value\": \"tabSales Invoice.posting_date\"\n        }\n    }\n}",
+    "parent": "DSH-0018",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 10:04:52.785979",
+  "name": "DSH-0018",
+  "public_key": null,
+  "title": "Refill Rate Metrics"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "853273",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 5,\n    \"i\": 853273,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 1\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Customers Who Bought This Two Week & Last Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Number\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought Last Two Week Only\",\n            \"column_options\": {\n                \"column_type\": \"Number\"\n            }\n        },\n        {\n            \"column\": \"Retention Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": false,\n    \"index\": true,\n    \"query\": \"QRY-0029\",\n    \"showTotal\": false,\n    \"title\": \"Retention Rate SQL Query(Weekly)\"\n}",
+    "parent": "DSH-0027",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "108582",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 11,\n    \"i\": 108582,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 6\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"Last Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"This Two Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought This Week & Last Week\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought Last Week Only\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Retention Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": true,\n    \"index\": true,\n    \"query\": \"QRY-0028\",\n    \"showTotal\": true,\n    \"title\": \"Retention Rate SQL Query(Weekly)\"\n}",
+    "parent": "DSH-0027",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 10:06:10.536245",
+  "name": "DSH-0027",
+  "public_key": null,
+  "title": "Sales Metrics (Weekly)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "513226",
+    "item_type": "Table",
+    "layout": "{\n    \"h\": 11,\n    \"i\": 513226,\n    \"moved\": false,\n    \"w\": 20,\n    \"x\": 0,\n    \"y\": 0\n}",
+    "options": "{\n    \"columns\": [\n        {\n            \"column\": \"company\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought This Month & Last Month\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Customers Who Bought Last Month Only\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        },\n        {\n            \"column\": \"Retention Rate\",\n            \"column_options\": {\n                \"column_type\": \"Text\"\n            }\n        }\n    ],\n    \"filtersEnabled\": true,\n    \"index\": true,\n    \"query\": \"QRY-0026\",\n    \"showTotal\": true,\n    \"title\": \"Retention Rate SQL Query\"\n}",
+    "parent": "DSH-0009",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-12 10:01:46.823666",
+  "name": "DSH-0009",
+  "public_key": null,
+  "title": "Sales Metrics"
+ }
+]
